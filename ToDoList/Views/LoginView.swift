@@ -8,47 +8,27 @@
 import SwiftUI
 
 struct LoginView: View {
-    @State var email = ""
-    @State var password = ""
+    @StateObject var viewModel = LoginViewViewModel()
     
     var body: some View {
         NavigationView{
             VStack{
                 // header
-                ZStack{
-                    RoundedRectangle(cornerRadius: 0)
-                        .foregroundColor(Color.pink)
-                        .rotationEffect(Angle(degrees: 15))
-                    VStack{
-                        Text("To Do List")
-                            .foregroundColor(.white)
-                            .font(.system(size: 50))
-                        Text("Get Things Done")
-                            .font(.system(size: 30))
-                            .foregroundColor(.white)
-                    }
-                    .padding(.top , 30)
-                }
-                .frame(width: UIScreen.main.bounds.width * 3, height: 300)
-                .offset(y:-100)
+                HeaderView(title: "To Do List", subTitle: "Get Things Done", angle: 15, background: Color.pink)
                 // login form
                 Form {
-                    TextField("Email Address" , text : $email)
+                    TextField("Email Address" , text : $viewModel.email)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
-                    SecureField("Password" , text : $password)
+                        .autocorrectionDisabled()
+                        .autocapitalization(/*@START_MENU_TOKEN@*/.none/*@END_MENU_TOKEN@*/)
+                    SecureField("Password" , text : $viewModel.password)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                     
-                    Button {
-                        //attempt login
-                    } label : {
-                        ZStack {
-                            RoundedRectangle(cornerRadius: 10)
-                                .foregroundColor(Color.blue)
-                            
-                            Text("Log In")
-                                .foregroundColor(.white)
-                                .bold()
-                        }
+                    TLButton(
+                        title: "Login",
+                        background: .blue)
+                    {
+                        // Action
                     }
                 }
                 // create account

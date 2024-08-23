@@ -23,6 +23,8 @@
 		F8662A832C78AA470085A567 /* NewItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8662A822C78AA470085A567 /* NewItemViewViewModel.swift */; };
 		F8662A852C78AA520085A567 /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8662A842C78AA520085A567 /* LoginViewViewModel.swift */; };
 		F8662A872C78AA5C0085A567 /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8662A862C78AA5C0085A567 /* RegisterViewViewModel.swift */; };
+		F8662A8A2C78D01D0085A567 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8662A892C78D01D0085A567 /* HeaderView.swift */; };
+		F8662A8C2C78E38B0085A567 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8662A8B2C78E38B0085A567 /* TLButton.swift */; };
 		F87453062C78780D00FD2920 /* ToDoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87453052C78780D00FD2920 /* ToDoListApp.swift */; };
 		F87453082C78780D00FD2920 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87453072C78780D00FD2920 /* MainView.swift */; };
 		F874530A2C78780F00FD2920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F87453092C78780F00FD2920 /* Assets.xcassets */; };
@@ -48,6 +50,8 @@
 		F8662A822C78AA470085A567 /* NewItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewViewModel.swift; sourceTree = "<group>"; };
 		F8662A842C78AA520085A567 /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
 		F8662A862C78AA5C0085A567 /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
+		F8662A892C78D01D0085A567 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		F8662A8B2C78E38B0085A567 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 		F87453022C78780D00FD2920 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F87453052C78780D00FD2920 /* ToDoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListApp.swift; sourceTree = "<group>"; };
 		F87453072C78780D00FD2920 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -78,6 +82,8 @@
 				F8662A6E2C78A9230085A567 /* NewItemView.swift */,
 				F8662A702C78A93E0085A567 /* LoginView.swift */,
 				F8662A722C78A9450085A567 /* RegisterView.swift */,
+				F8662A892C78D01D0085A567 /* HeaderView.swift */,
+				F8662A8B2C78E38B0085A567 /* TLButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -230,11 +236,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8662A812C78AA360085A567 /* ToDoListItemViewViewModel.swift in Sources */,
+				F8662A8A2C78D01D0085A567 /* HeaderView.swift in Sources */,
 				F8662A712C78A93E0085A567 /* LoginView.swift in Sources */,
 				F8662A872C78AA5C0085A567 /* RegisterViewViewModel.swift in Sources */,
 				F87453082C78780D00FD2920 /* MainView.swift in Sources */,
 				F8662A852C78AA520085A567 /* LoginViewViewModel.swift in Sources */,
 				F8662A7B2C78AA0B0085A567 /* MainViewViewModel.swift in Sources */,
+				F8662A8C2C78E38B0085A567 /* TLButton.swift in Sources */,
 				F8662A6D2C78A9060085A567 /* ToDoListView.swift in Sources */,
 				F8662A792C78A9D80085A567 /* ToListItem.swift in Sources */,
 				F8662A7D2C78AA1B0085A567 /* ProfileViewViewModel.swift in Sources */,
