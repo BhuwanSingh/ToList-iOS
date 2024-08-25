@@ -31,6 +31,7 @@
 		F874530D2C78780F00FD2920 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F874530C2C78780F00FD2920 /* Preview Assets.xcassets */; };
 		F87453152C787A4D00FD2920 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F87453142C787A4D00FD2920 /* FirebaseAuth */; };
 		F87453172C787A4D00FD2920 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F87453162C787A4D00FD2920 /* FirebaseFirestore */; };
+		F874D1562C79C5B60006E43C /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F874D1552C79C5B60006E43C /* Extentions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		F87453072C78780D00FD2920 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		F87453092C78780F00FD2920 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F874530C2C78780F00FD2920 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F874D1552C79C5B60006E43C /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				F87453092C78780F00FD2920 /* Assets.xcassets */,
 				F87453052C78780D00FD2920 /* ToDoListApp.swift */,
 				F8662A642C78A68F0085A567 /* GoogleService-Info.plist */,
+				F874D1552C79C5B60006E43C /* Extentions.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 				F8662A792C78A9D80085A567 /* ToListItem.swift in Sources */,
 				F8662A7D2C78AA1B0085A567 /* ProfileViewViewModel.swift in Sources */,
 				F8662A732C78A9450085A567 /* RegisterView.swift in Sources */,
+				F874D1562C79C5B60006E43C /* Extentions.swift in Sources */,
 				F8662A6B2C78A8ED0085A567 /* ProfileView.swift in Sources */,
 				F8662A772C78A9C50085A567 /* User.swift in Sources */,
 				F8662A7F2C78AA270085A567 /* ToDoListViewViewModel.swift in Sources */,
